@@ -1,0 +1,23 @@
+
+<div class="jumbotron">
+
+    <h2>User list</h2>
+    
+</div>
+
+<script type="text/ng-template" id="detail.html">
+    
+</script>
+
+<script type="text/ng-template" id="confirm.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Confirm delete user</h3>
+    </div>
+    <div class="modal-body">
+        <p>Are you sure you want to delete the User {{user.username}}?</p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-default" ng-click="accept()">Yes</button>
+        <button class="btn btn-primary" ng-click="close()">No</button>
+    </div>
+</script>
